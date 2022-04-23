@@ -27,6 +27,7 @@ body {
 .header {
   text-decoration: none;
   background: var(--white-color);
+  padding-top: 24px;
 }
 
 .header-logo-text {
@@ -39,6 +40,9 @@ body {
 
 .studio-style {
   color: var(--black-text);
+}
+.header-list {
+  padding-top: 32px;
 }
 .header-link {
   font-weight: 500;
@@ -64,6 +68,7 @@ body {
 }
 .main-text-section {
   background: var(--black-back);
+  padding-top: 80px;
 }
 .main-text {
   font-weight: 900;
@@ -73,6 +78,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  max-width: 696px;
 }
 .mail-btn {
   font-family: inherit;
