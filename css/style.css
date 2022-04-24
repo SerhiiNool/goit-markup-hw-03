@@ -10,6 +10,7 @@ body {
   background-color: var(--white-color);
   font-family: 14px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .container {
