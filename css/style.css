@@ -37,6 +37,7 @@ body {
 }
 .header-contact {
   display: flex;
+  margin-left: auto;
 }
 
 .header-logo-text {
@@ -53,15 +54,12 @@ body {
 }
 .header-list {
   display: flex;
-
-  padding-left: 93px;
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-back);
-  padding: 50px;
 }
 
 .header-link:hover,
