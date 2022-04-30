@@ -24,11 +24,19 @@ body {
 }
 .list {
   list-style: none;
+  margin-top: 8px;
 }
 .header {
   text-decoration: none;
   background: var(--white-color);
-  padding-top: 24px;
+  align-items: center;
+}
+.header-flex {
+  display: flex;
+  list-style: none;
+}
+.header-contact {
+  display: flex;
 }
 
 .header-logo-text {
@@ -37,37 +45,53 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
+  margin-top: 24px;
 }
 
 .studio-style {
   color: var(--black-text);
 }
 .header-list {
-  padding-top: 32px;
+  display: flex;
+
+  padding-left: 93px;
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-back);
+  padding: 50px;
 }
 
 .header-link:hover,
 .header-link:focus {
   color: var(--blue-color);
 }
-.header-tel {
+
+.header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
 }
 
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--grey-color);
+  padding: 50px;
+}
+
 .header-tel:hover,
 .header-tel:focus {
   color: var(--blue-color);
 }
-
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--blue-color);
+}
 .main-text-section {
   background: var(--black-back);
   text-align: center;
@@ -111,7 +135,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black-text);
+  padding-bottom: 10px;
 }
+.about-list {
+  display: flex;
+}
+
 .about-title-one {
   max-width: 270px;
 }
@@ -126,6 +155,9 @@ body {
 
   color: var(--grey-color);
 }
+.work-flex {
+  display: flex;
+}
 .side-text {
   font-weight: 700;
   font-size: 36px;
@@ -133,14 +165,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.masters {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-
-  color: var(--black-text);
+.masters-flex {
+  display: flex;
 }
+
 .masters {
   font-weight: 700;
   font-size: 36px;
@@ -195,6 +223,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  display: flex;
 }
 .url-button {
   font-weight: 500;
