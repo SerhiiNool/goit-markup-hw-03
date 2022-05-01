@@ -47,6 +47,7 @@ body {
   line-height: 1.19;
   color: var(--blue-color);
   margin-top: 24px;
+  margin-right: 70px;
 }
 
 .studio-style {
@@ -54,6 +55,9 @@ body {
 }
 .header-list {
   display: flex;
+}
+.header-link {
+  margin-right: 50px;
 }
 .header-link {
   font-weight: 500;
@@ -66,7 +70,9 @@ body {
 .header-link:focus {
   color: var(--blue-color);
 }
-
+.header-conect {
+  margin-left: auto;
+}
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -162,6 +168,8 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .masters-flex {
   display: flex;
@@ -173,6 +181,8 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 50px;
 
   color: var(--black-text);
 }
@@ -189,6 +199,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
+  margin-left: 37px;
 }
 .footer-address {
   font-weight: 400;
@@ -210,6 +221,12 @@ body {
 }
 .footer-down {
   background: var(--black-back);
+  height: 252px;
+  weight: auto;
+  align-items: center;
+}
+.footer-content {
+  padding-top: 50px;
 }
 .footer_style {
   color: #ffffff;
@@ -222,6 +239,9 @@ body {
   font-size: 16px;
   line-height: 1.6;
   display: flex;
+  margin-top: 100px;
+
+  
 }
 .url-button {
   font-weight: 500;
@@ -232,6 +252,11 @@ body {
   color: var(--black-text);
   background: #f5f4fa;
   border-radius: 4px;
+  margin-right: 22px;
+
+}
+
+
 }
 
 .url-button:focus,
