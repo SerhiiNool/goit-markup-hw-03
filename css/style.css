@@ -240,8 +240,8 @@ body {
   line-height: 1.6;
   display: flex;
   margin-top: 100px;
-
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 .url-button {
   font-weight: 500;
@@ -253,10 +253,6 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   margin-right: 22px;
-
-}
-
-
 }
 
 .url-button:focus,
