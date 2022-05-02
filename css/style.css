@@ -31,10 +31,7 @@ body {
   background: var(--white-color);
   align-items: center;
 }
-.header-flex {
-  display: flex;
-  list-style: none;
-}
+
 .header-contact {
   display: flex;
   margin-left: auto;
@@ -46,7 +43,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
-  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 70px;
 }
 
@@ -56,7 +54,7 @@ body {
 .header-list {
   display: flex;
 }
-.header-link {
+.header-link:not(last-child) {
   margin-right: 50px;
 }
 .header-link {
@@ -69,6 +67,8 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--blue-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-conect {
   margin-left: auto;
@@ -78,6 +78,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
+  padding-right: 50px;
 }
 
 .header-tel {
@@ -85,7 +86,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
-  padding: 50px;
 }
 
 .header-tel:hover,
