@@ -201,7 +201,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
-  margin-left: 37px;
 }
 .footer-address {
   font-weight: 400;
@@ -224,7 +223,7 @@ body {
 .footer-down {
   background: var(--black-back);
   height: 252px;
-  weight: auto;
+  height: auto;
   align-items: center;
 }
 .footer-content {
