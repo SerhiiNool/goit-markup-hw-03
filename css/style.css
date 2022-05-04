@@ -24,7 +24,6 @@ body {
 }
 .list {
   list-style: none;
-  margin-top: 8px;
 }
 .header {
   text-decoration: none;
@@ -38,6 +37,7 @@ body {
 .header-contact {
   display: flex;
   margin-left: auto;
+  margin-top: 32px;
 }
 
 .header-logo-text {
@@ -56,6 +56,7 @@ body {
 }
 .header-list {
   display: flex;
+  margin-top: 32px;
 }
 .header-link:not(last-child) {
   margin-right: 50px;
