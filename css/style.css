@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   background: var(--white-color);
   align-items: center;
-  margin-left: 215px;
+  margin-left: auto;
 }
 .header .container {
   display: flex;
@@ -292,10 +292,10 @@ body {
   height: 252px;
   width: auto;
   align-items: center;
+  margin-left: auto;
 }
 .footer-content {
   padding-top: 50px;
-  margin-left: 215px;
 }
 .footer_style {
   color: #ffffff;
