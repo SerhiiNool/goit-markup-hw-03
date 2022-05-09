@@ -169,7 +169,6 @@ body {
 .about-title-one {
   max-width: 270px;
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .about-title-one:not(:last-child) {
   margin-right: 30px;
@@ -190,7 +189,7 @@ body {
 /*----------WORK-SECTION---------*/
 .work-flex {
   display: flex;
-  margin-top: 0px;
+
   margin-bottom: 94px;
 }
 .side-text {
@@ -198,9 +197,8 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
   padding-bottom: 50px;
-  margin-top: 0px;
+  padding-top: 94px;
   margin-bottom: 0px;
 }
 
