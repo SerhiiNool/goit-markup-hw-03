@@ -108,12 +108,9 @@ body {
 .main-text-section {
   background: var(--black-back);
   text-align: center;
-  height: 600px;
+  padding: 200px 0px;
 }
-.main-element {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 .main-text {
   font-size: 44px;
   line-height: 1.36;
@@ -122,12 +119,11 @@ body {
   text-transform: uppercase;
   color: var(--white-color);
   max-width: 696px;
-  padding-top: 200px;
-  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.main-click {
-  padding-top: 20px;
-}
+
 .mail-btn {
   font-family: inherit;
   font-weight: 700;
@@ -138,7 +134,6 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-
   width: 200px;
   height: 50px;
 }
@@ -164,17 +159,19 @@ body {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 .about-title-one {
   max-width: 270px;
-  padding-top: 94px;
 }
 .about-title-one:not(:last-child) {
   margin-right: 30px;
 }
 .about {
   background-color: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-bottom-text {
   font-size: 14px;
@@ -189,7 +186,11 @@ body {
 /*----------WORK-SECTION---------*/
 .work-flex {
   display: flex;
-
+  padding: 0px 0px;
+  margin: 0px auto;
+}
+.work-section {
+  margin-top: 94px;
   margin-bottom: 94px;
 }
 .side-text {
@@ -197,9 +198,8 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
-  padding-top: 94px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .work-img:not(:last-child) {
@@ -219,15 +219,16 @@ body {
 }
 .master-section {
   background: #f5f4fa;
+  padding: 94px 0px;
 }
 .masters-flex {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 0px 0px;
 }
 .masters {
   background: #ffffff;
-  margin-bottom: 94px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -287,14 +288,13 @@ body {
 }
 .footer-down {
   background: var(--black-back);
-  height: 252px;
+  padding: 50px 0px;
+
   width: auto;
   align-items: center;
   margin-left: auto;
 }
-.footer-content {
-  padding-top: 50px;
-}
+
 .footer_style {
   color: #ffffff;
 }
