@@ -18,7 +18,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 .link {
   text-decoration: none;
@@ -42,7 +42,10 @@ body {
 .header-contact {
   display: flex;
   margin-left: auto;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header-logo-text {
@@ -51,7 +54,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
-  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-right: 70px;
 }
 
@@ -60,7 +64,9 @@ body {
 }
 .header-list {
   display: flex;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0px;
 }
 
 .header-item:not(:last-child) {
@@ -71,6 +77,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-back);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-li {
+  margin-right: 50px;
 }
 
 .header-link:hover,
@@ -85,7 +96,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
-  padding-right: 50px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-tel {
@@ -93,6 +106,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-tel:hover,
@@ -114,7 +129,6 @@ body {
 .main-text {
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
@@ -190,8 +204,7 @@ body {
   margin: 0px auto;
 }
 .work-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .side-text {
   font-size: 36px;
@@ -213,9 +226,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--grey-color);
   text-align: center;
-  padding-top: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .master-section {
   background: #f5f4fa;
@@ -225,11 +237,11 @@ body {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 0px 0px;
+  padding: 0px;
 }
 .masters {
   background: #ffffff;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -245,14 +257,15 @@ body {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 30px;
+  margin-top: 30px;
+  padding: 0px;
 }
 
 /*-----FOOTER-----*/
 
 .footer-list {
-  margin-top: 20px;
-  margin-bottom: 0px;
+  padding-top: 20px;
+  margin: 0px;
   padding-left: 0px;
 }
 .footer-logo-text {
@@ -277,14 +290,15 @@ body {
 .footer-contacts:focus {
   color: var(--blue-color);
 }
-
+.footer-li {
+  padding-top: 9px;
+}
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  margin-top: 9px;
 }
 .footer-down {
   background: var(--black-back);
