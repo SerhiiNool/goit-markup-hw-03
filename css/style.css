@@ -335,7 +335,7 @@ body {
 }
 .portfolio-line {
   border-bottom: 1px solid #ececec;
-  width: auto;
+  border-bottom-width: auto;
 }
 .urll {
   font-family: 'Roboto';
