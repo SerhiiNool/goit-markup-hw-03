@@ -288,6 +288,7 @@ body {
 .footer-address {
   font-weight: 400;
   font-size: 14px;
+  line-height: 24px;
   line-height: 1.71;
   color: var(--white-color);
   font-style: normal;
@@ -306,7 +307,8 @@ body {
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
-  line-height: 21px;
+
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
