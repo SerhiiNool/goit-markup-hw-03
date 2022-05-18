@@ -34,6 +34,8 @@ body {
   background: var(--white-color);
   align-items: center;
   margin-left: auto;
+  border-bottom: 1px solid #ececec;
+  border-bottom-width: auto;
 }
 .header .container {
   display: flex;
@@ -327,10 +329,6 @@ body {
 /*--------GALLERY-------*/
 .portfolio-section {
   padding: 94px 0px;
-}
-.portfolio-line {
-  border-bottom: 1px solid #ececec;
-  border-bottom-width: auto;
 }
 
 .urll {
