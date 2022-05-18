@@ -41,12 +41,10 @@ body {
 
 .header-contact {
   display: flex;
-  margin-left: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin: 0px 0px 0px auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 0px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .header-logo-text {
@@ -55,8 +53,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
 }
 
@@ -65,12 +63,10 @@ body {
 }
 .header-list {
   display: flex;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 0px;
-  margin-left: 0px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin: 0px;
 }
 .header-link-curent {
   font-weight: 500;
@@ -81,9 +77,6 @@ body {
   padding-bottom: 32px;
 }
 
-.header-item {
-  padding: 0;
-}
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -313,7 +306,7 @@ body {
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
-  line-height: 2;
+  line-height: 21px;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
@@ -331,12 +324,13 @@ body {
 }
 /*--------GALLERY-------*/
 .portfolio-section {
-  margin: 94px 0px;
+  padding: 94px 0px;
 }
 .portfolio-line {
   border-bottom: 1px solid #ececec;
   border-bottom-width: auto;
 }
+
 .urll {
   font-family: 'Roboto';
   font-style: normal;
@@ -345,7 +339,7 @@ body {
   line-height: 1.6;
   display: flex;
   padding: 0px;
-  margin: 0px 0px 56px 0px;
+  margin: 0px 0px 50px 0px;
   justify-content: center;
 }
 
@@ -353,14 +347,13 @@ body {
   width: 370px;
   height: 404px;
   background: #ffffff;
+}
+.portfolio-texts {
   border: 1px solid #eeeeee;
-  border-top-width: 0px;
-  margin-right: 30px;
+  border-top: 0;
+  padding-top: 20px;
 }
-.img-company:nth-child(3n + 3) {
-  margin-right: 0px;
-  margin-bottom: 30px;
-}
+
 .url-button {
   font-weight: 500;
   font-size: 16px;
@@ -371,8 +364,8 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   border: 0;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding: 6px 22px;
+  display: block;
 }
 
 .url-but-list:not(:last-child) {
@@ -390,9 +383,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-top: 00px;
+  padding-top: 0px;
   margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -402,12 +395,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--grey-color);
   padding-top: 0px;
-  margin-top: 4px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
   margin-left: 24px;
 }
 .img-company {
-  margin-top: 0px;
+  margin: 15px;
   padding: 0px;
 }
 .company {
@@ -415,5 +408,5 @@ body {
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin: -15px;
 }
