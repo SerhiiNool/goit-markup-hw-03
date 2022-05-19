@@ -47,8 +47,7 @@ img {
 .header-contact {
   display: flex;
   margin: 0px 0px 0px auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
   padding-left: 0px;
 }
 
@@ -61,6 +60,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;
+  display: block;
 }
 
 .studio-style {
@@ -68,8 +68,7 @@ img {
 }
 .header-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
   padding-left: 0px;
   margin: 0px;
 }
@@ -80,6 +79,7 @@ img {
   color: var(--blue-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 
 .header-item:not(:last-child) {
@@ -92,6 +92,7 @@ img {
   color: var(--black-back);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .header-li {
   margin-right: 50px;
@@ -109,7 +110,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
-
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -119,6 +120,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   color: var(--grey-color);
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -347,14 +349,11 @@ img {
 }
 
 .img-company {
-  width: 370px;
-  height: 404px;
   background: #ffffff;
 }
 .portfolio-texts {
   border: 1px solid #eeeeee;
   border-top: 0;
-  padding-top: 20px;
 }
 
 .url-button {
@@ -386,10 +385,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-top: 0px;
-  margin-left: 24px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding: 20px 24px 4px 24px;
+  margin: 0px;
 }
 
 .work {
@@ -397,10 +394,8 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--grey-color);
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding: 0px 24px 20px 24px;
+  margin: 0px;
 }
 .img-company {
   margin: 15px;
